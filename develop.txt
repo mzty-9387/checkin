@@ -19,7 +19,7 @@ request:
 POST https://zt.wps.cn/2019/docer_sign_ppt/api/checkin
 Host: zt.wps.cn
 sid: V02S8fWiw86zsFg1oE5p4hCHAR6GPE000a4e69e2002508b828
-wx-code: 每次提交都不一样，不知道怎么搞。
+wx-code: 每次提交都不一样，不知道怎么搞。#关于vx-code就我所知是小程序通过小程序id从从微信服务器申请过来的 可以一次申请多个但是每个只能使用一次，微信有个检测机制第二次使用就会报error code错误，有帖子讲过伪造小程序id获取vx-code方法，无奈技术渣没能实现，希望能给你提供一个思路。
 
 data
 	is_question=1
